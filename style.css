@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* nav */
+
+.navbar.navbar-expand-lg {
+  background-color: rgb(0, 150, 224);
+}
+
+.nav-item .nav-link {
+  font-size: 16px;
+  font-weight: 200;
+  color: #fff;
+}
+
+.nav-item .nav-link.active {
+  font-weight: 700;
+}
+
+/* /nav */
+
+/* hero section */
+
+.section-hero {
+  min-height: calc(100vh - 62px);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)),
+    url("./images/sharon-mccutcheon-O2u6gA2esAI-unsplash.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image {
+  width: 500px;
+  height: 500px;
+  background: url("./images/85-857315_turtle-school-symbol-turtle-symbol-dragon-ball-hd.png");
+  background-position: 10% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+}
+
+/* /hero section */
+
+/* about section */
+
+.about {
+  background-color: #fefefe;
+}
+.about-img {
+  width: 600px;
+  height: 500px;
+  background-image: url("./images/8401.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* about section */
+
+/* accomplish section */
+
+.accomplish {
+  background-color: #f5f5f589;
+}
+.accomplish-card {
+  width: 20rem;
+  border: none;
+  /* border: 1px solid #8e8e8e44;
+  box-shadow: 0 2px 5px #00000022; */
+  height: 260px;
+  background-color: transparent;
+}
+.card-img-top {
+  width: 5rem;
+}
+
+/* accomplish section */
+
+/* mission section */
+
+.mission {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)),
+    url("./images/joanna-kosinska-7ACuHoezUYk-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 50%;
+}
+
+/* mission section */
+
+/* section-offers */
+
+.section-offers {
+  min-height: 100vh;
+  background-color: #f5f5f589;
+}
+
+.offer-card {
+  padding: 20px 20px;
+  border-radius: 5px;
+  border: 1px solid #8e8e8e44;
+  box-shadow: 0 2px 5px #00000022;
+  background-color: #fff;
+  height: 100%;
+}
+
+/* section-offers */
+
+.testimonials {
+  background-image: linear-gradient(
+      rgba(4, 9, 30, 0.551),
+      rgba(4, 9, 30, 0.551)
+    ),
+    url("./images/joshua-hoehne-iggWDxHTAUQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Award Section */
+
+.awards {
+  background-color: #f5f5f589;
+}
+.h1 img {
+  width: 5rem;
+}
+.testi a {
+  border: none !important;
+}
+
+/* Award Section */
+
+/* About Page */
+
+.About {
+  background-color: #eeeff3;
+}
+.About-img {
+  width: 500px;
+  height: 400px;
+  background-image: url("./images/3784896.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.FAQ {
+  background: fixed;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.8), rgba(0, 0, 0, 0.8)),
+    url("./images/philip-strong-iOBTE2xsYko-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* About Page */
+
+/* Contact */
+
+.container form input {
+  font-size: 20px;
+}
+.contact-content h6 {
+  font-size: 24px;
+}
+.icon {
+  width: 64px;
+  height: 64px;
+}
+.icon.clock {
+  background: url("./images/clock (4).png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.icon.phone {
+  background: url("./images/phone-call.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.icon.email {
+  background: url("./images/message.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Contact */
+
+/* generic styles */
+
+.bg-primary {
+  background-color: rgb(0, 150, 224) !important;
+}
+.text-primary {
+  color: rgb(0, 150, 224) !important;
+}
+.btn-primary {
+  background-color: rgb(0, 150, 224) !important;
+}
+
+button.btn.btn-primary {
+  background-color: rgb(0, 150, 224);
+  border-color: rgb(0, 150, 224);
+}
+
+button.btn.btn-primary:hover {
+  background-color: rgb(0, 135, 203);
+  border-color: rgb(0, 135, 203);
+}
+
+button.btn.btn-primary:active {
+  background-color: rgb(0, 111, 167);
+  border-color: rgb(0, 111, 167);
+}
+.bi-arrow-up-circle {
+  font-size: 40px;
+}
+/* /generic styles */
+
+/* media queries */
+
+/* hero section */
+
+@media screen and (max-width: 1300px) {
+  .hero-image {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .hero-image {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+/* /hero section */
+
+/* About Page */
+
+@media screen and (max-width: 1197px) {
+  .About-img {
+    width: 400px;
+    height: 380px;
+    padding: 0;
+  }
+  .About-desc {
+    padding: 0px;
+  }
+  .container.row.mb-5.mx-auto {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 988px) {
+  .About-img {
+    width: 700px;
+    height: 400px;
+  }
+  .About-desc p {
+    padding: 0px 50px;
+  }
+  .extra-text {
+    padding: 0px 80px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .extra-text {
+    padding: 0px 40px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .extra-text {
+    padding: 0px 50px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .About-img {
+    width: 500px;
+    height: 400px;
+  }
+  .container.row.mb-5.mx-auto {
+    padding: 0 30px;
+  }
+  .extra-text {
+    padding: 0px 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .About-img {
+    width: 400px;
+    height: 200px;
+  }
+  .container.row.mb-5.mx-auto {
+    padding: 0 30px;
+  }
+  .About-desc p {
+    font-size: 18px;
+    padding: 0px 20px;
+  }
+  .text-center.px-5.mb-5 {
+    padding: 0px 10px !important;
+  }
+  .extra-text {
+    padding: 0px 20px;
+    font-size: 16px !important;
+  }
+  .filler-text {
+    font-size: 16px !important;
+  }
+}
+
+/* About Page */
+
+/* about section*/
+
+@media screen and (max-width: 1400px) {
+  .about-img {
+    width: 500px;
+    height: 400px;
+  }
+  .about-desc h2 {
+    font-size: 50px;
+  }
+  .about-desc h4 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .about-desc p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+}
+/* about section */
+
+@media screen and (max-width: 420px) {
+  .mission {
+    background-position-x: 0%;
+  }
+  .mission-text p {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .testi {
+    width: 400px;
+  }
+  .card-width {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .award {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .carousel-item div.award {
+    width: 350px !important;
+  }
+}
+@media screen and (max-width: 352px) {
+  .carousel-item div.award {
+    width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .contact-card {
+    align-items: flex-start !important;
+  }
+}
+/* /media queries */
